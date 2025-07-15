@@ -1,6 +1,6 @@
 import type { VinylData } from "../../interface/data-interface";
 
-export const dataMasterVinilo: VinylData[] = [
+export const DataVinilo: VinylData[] = [
   {
     id: 1001,
     nombre: "Abbey Road",

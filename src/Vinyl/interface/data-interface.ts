@@ -1,21 +1,5 @@
-export interface ArtistaInfo {
-  id: number;
-  nombre: string;
-  biografia: string;
-  paisOrigen: string;
-  añoFormacion: number;
-  generosPrincipales: string[];
-  miembros?: string[];
-  discografia: string[];
-  premios: string[];
-  sitioWeb?: string;
-  redesSociales: {
-    instagram?: string;
-    twitter?: string;
-    facebook?: string;
-    youtube?: string;
-  };
-  imagenArtista: string;
+export interface vinylProducts extends VinylData {
+  vinylProducts: VinylData[];
 }
 
 export interface VinylData {
