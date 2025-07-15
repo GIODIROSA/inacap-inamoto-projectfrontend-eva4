@@ -1,15 +1,11 @@
-
-import './App.css'
+import Vinyl from "./Vinyl/Vinyl";
 
 function App() {
-
   return (
     <>
-    <div>
-      LOQUESEA
-    </div>
+      <Vinyl />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
