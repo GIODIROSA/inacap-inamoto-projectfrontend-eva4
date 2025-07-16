@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Form, Button, Table, Row, Col, Alert } from "react-bootstrap";
-import { v4 as uuidv4 } from "uuid"; // For unique IDs
+import { v4 as uuidv4 } from "uuid"; 
 import type { Country, FormData } from "../../interface/contact-interface";
 
-// Install uuid: npm install uuid @types/uuid
+
 
 const FormContact: React.FC = () => {
   const [countries, setCountries] = useState<Country[]>([]);
@@ -22,7 +22,6 @@ const FormContact: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    // Fetch countries from API
     const fetchCountries = async () => {
       try {
         const response = await fetch(
@@ -32,7 +31,6 @@ const FormContact: React.FC = () => {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
         const data: Country[] = await response.json();
-        // Sort countries alphabetically for better UX
         const sortedData = data.sort((a, b) =>
           a.name.common.localeCompare(b.name.common)
         );
@@ -44,7 +42,6 @@ const FormContact: React.FC = () => {
     };
     fetchCountries();
 
-    // Load data from localStorage on component mount
     const storedData = localStorage.getItem("contactFormData");
     if (storedData) {
       setSavedData(JSON.parse(storedData));
@@ -52,7 +49,6 @@ const FormContact: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    // Save data to localStorage whenever savedData changes
     localStorage.setItem("contactFormData", JSON.stringify(savedData));
   }, [savedData]);
 
@@ -73,16 +69,15 @@ const FormContact: React.FC = () => {
       );
       setFormData((prevData) => ({
         ...prevData,
-        capital: selectedCountry?.capital?.[0] || "", // Get the first capital, or empty string
+        capital: selectedCountry?.capital?.[0] || "", 
       }));
     }
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setError(null); // Clear previous errors
+    setError(null); 
 
-    // Basic validation
     if (
       !formData.name ||
       !formData.lastName ||
@@ -95,7 +90,6 @@ const FormContact: React.FC = () => {
     }
 
     if (editingId) {
-      // Update existing entry
       setSavedData((prevData) =>
         prevData.map((item) =>
           item.id === editingId ? { ...formData, id: editingId } : item
@@ -103,11 +97,9 @@ const FormContact: React.FC = () => {
       );
       setEditingId(null);
     } else {
-      // Add new entry
       setSavedData((prevData) => [...prevData, { ...formData, id: uuidv4() }]);
     }
 
-    // Reset form
     setFormData({
       id: "",
       name: "",
