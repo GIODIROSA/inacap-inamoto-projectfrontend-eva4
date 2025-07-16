@@ -11,7 +11,7 @@ export interface VinylData {
   subgenero?: string;
   formato: string;
   precio: number;
-  precioOferta?: number;
+  precioOferta: number;
   stock: number;
   fechaLanzamiento: string;
   fechaReedicion?: string;
@@ -52,4 +52,11 @@ export interface VinylData {
   colorVinilo: string;
   calificacionPromedio: number;
   totalResennas: number;
+}
+
+export interface Resenna {
+  usuario: string;
+  calificacion: number;
+  comentario: string;
+  fechaReseña: string;
 }

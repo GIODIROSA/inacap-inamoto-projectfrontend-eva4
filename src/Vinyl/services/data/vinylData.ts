@@ -10,7 +10,7 @@ export const DataVinilo: VinylData[] = [
     subgenero: "Pop Rock",
     formato: "LP - 180gr",
     precio: 38990,
-    precioOferta: 9990,
+    precioOferta: 129990,
     stock: 45,
     fechaLanzamiento: "1969-09-26",
     fechaReedicion: "2019-09-27",
@@ -96,7 +96,7 @@ export const DataVinilo: VinylData[] = [
     subgenero: "Art Rock",
     formato: "LP - 180gr",
     precio: 42990,
-    precioOferta: 38990,
+    precioOferta: 5638990,
     stock: 32,
     fechaLanzamiento: "1973-03-01",
     fechaReedicion: "2016-11-18",
@@ -105,7 +105,7 @@ export const DataVinilo: VinylData[] = [
     descripcionLarga:
       "The Dark Side of the Moon es el octavo álbum de estudio de Pink Floyd, reconocido como una de las obras más influyentes de la historia del rock. Esta edición remasterizada en vinilo de 180 gramos reproduce fielmente los efectos sonoros y la complejidad musical que hicieron famoso al álbum. Con temas como 'Money', 'Time' y 'Us and Them', es una experiencia auditiva que trasciende generaciones.",
     portadaUrl:
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=600&h=600&fit=crop",
     imagenesAdicionales: [
       "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=600&fit=crop",
       "https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=600&h=600&fit=crop",
