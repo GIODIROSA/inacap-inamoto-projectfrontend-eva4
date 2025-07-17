@@ -23,7 +23,7 @@ const CardItem: React.FC<CardItemProps> = ({ vinyl }) => {
         </Card.Subtitle>
         <Card.Text className="flex-grow-1">
           {vinyl.descripcionCorta}
-        </Card.Text>
+        </Card.Text> 
         <div className="mt-auto">
           {vinyl.precio > 0 && vinyl.precio < vinyl.precio ? (
             <>

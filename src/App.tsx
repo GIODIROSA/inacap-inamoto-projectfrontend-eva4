@@ -6,6 +6,7 @@ import LayoutCatalogo from "./Vinyl/componets/layout/LayoutCatalogo";
 import LayoutContact from "./Vinyl/componets/layout/LayoutContact";
 import LayoutServicio from "./Vinyl/componets/layout/LayoutServicio";
 import { VinylProvider } from "./Vinyl/context/VinylProvider";
+import Footer from "./Vinyl/componets/ui/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           </Routes>
         </main>
       </VinylProvider>
+      <Footer />
     </Router>
   );
 }

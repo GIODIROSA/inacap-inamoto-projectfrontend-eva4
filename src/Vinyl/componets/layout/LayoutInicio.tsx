@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { VinylContext } from "../../context/VinylContext";
 import CardOfferItem from "../ui/CardOfferItem";
+import VinylCarousel from "../ui/VinylCarousel";
 
 const LayoutInicio: React.FC = () => {
   const { allVinyl } = useContext(VinylContext);
@@ -12,9 +13,10 @@ const LayoutInicio: React.FC = () => {
 
   return (
     <Container className="mt-4">
+      <VinylCarousel />
       <Row>
         <Col className="text-center mb-4">
-          <h1>¡Ofertas Destacadas!</h1> {/* Título ajustado para ofertas */}
+          <h1>¡Ofertas Destacadas!</h1> 
           <p>Aprovecha nuestros descuentos especiales en vinilos seleccionados.</p>
         </Col>
       </Row>
