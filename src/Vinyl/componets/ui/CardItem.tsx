@@ -1,6 +1,5 @@
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import type { VinylData } from "../../interface/data-interface";
-
 
 interface CardItemProps {
   vinyl: VinylData;
@@ -16,14 +15,11 @@ const CardItem: React.FC<CardItemProps> = ({ vinyl }) => {
         style={{ height: "200px", objectFit: "cover" }}
       />
       <Card.Body className="d-flex flex-column">
-
         <Card.Title className="mb-1">{vinyl.nombre}</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">
           {vinyl.artista}
         </Card.Subtitle>
-        <Card.Text className="flex-grow-1">
-          {vinyl.descripcionCorta}
-        </Card.Text> 
+        <Card.Text className="flex-grow-1">{vinyl.descripcionCorta}</Card.Text>
         <div className="mt-auto">
           {vinyl.precio > 0 && vinyl.precio < vinyl.precio ? (
             <>
@@ -39,9 +35,7 @@ const CardItem: React.FC<CardItemProps> = ({ vinyl }) => {
               ${vinyl.precio.toLocaleString()}
             </span>
           )}
-          <Button variant="primary" className="w-100 mt-2">
-            Ver Detalles
-          </Button>
+
           {vinyl.stock === 0 && (
             <div className="text-danger fw-bold mt-2">¡Agotado!</div>
           )}
