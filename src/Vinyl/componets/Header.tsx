@@ -3,8 +3,14 @@ import { NavLink } from "react-router-dom";
 import LogoInamoto from "../assets/img/vinilo.png";
 
 const Header: React.FC = () => {
+
+const styleColorHeader: React.CSSProperties = {
+    backgroundColor: "#B1AB86",
+  };  
+
+
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar style={styleColorHeader} variant="dark" expand="lg">
       <Container className="d-flex justify-content-between align-items-center">
         <Navbar.Brand as={NavLink} to="/" className="d-flex align-items-center">
           <img

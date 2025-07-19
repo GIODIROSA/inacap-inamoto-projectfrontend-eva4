@@ -1,5 +1,11 @@
 import type { VinylData } from "../../interface/data-interface";
 
+import musica01 from "../../assets/img/musica-01.jpg";
+import musica02 from "../../assets/img/musica-02.jpg";
+import musica03 from "../../assets/img/musica-03.jpg";
+import musica04 from "../../assets/img/musica-04.jpg";
+
+
 export const DataVinilo: VinylData[] = [
   {
     id: 1001,
@@ -104,8 +110,7 @@ export const DataVinilo: VinylData[] = [
       "Una obra maestra del rock progresivo que explora temas universales con innovación sonora.",
     descripcionLarga:
       "The Dark Side of the Moon es el octavo álbum de estudio de Pink Floyd, reconocido como una de las obras más influyentes de la historia del rock. Esta edición remasterizada en vinilo de 180 gramos reproduce fielmente los efectos sonoros y la complejidad musical que hicieron famoso al álbum. Con temas como 'Money', 'Time' y 'Us and Them', es una experiencia auditiva que trasciende generaciones.",
-    portadaUrl:
-      "https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=600&h=600&fit=crop",
+    portadaUrl: musica02,
     imagenesAdicionales: [
       "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=600&fit=crop",
       "https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=600&h=600&fit=crop",
@@ -257,8 +262,7 @@ export const DataVinilo: VinylData[] = [
       "El álbum que definió el grunge y cambió la música alternativa para siempre.",
     descripcionLarga:
       "Nevermind es el segundo álbum de estudio de Nirvana que catapultó al grunge al mainstream. Esta edición especial del 30 aniversario en vinilo de 180 gramos incluye el álbum completo remasterizado. Con 'Smells Like Teen Spirit' como himno generacional, este álbum sigue siendo relevante y poderoso tres décadas después.",
-    portadaUrl:
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=600&fit=crop",
+    portadaUrl: musica01,
     imagenesAdicionales: [
       "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=600&fit=crop",
       "https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=600&h=600&fit=crop",
@@ -414,8 +418,7 @@ export const DataVinilo: VinylData[] = [
       "El álbum que redefinió la música electrónica con elementos disco y funk.",
     descripcionLarga:
       "Random Access Memories es el cuarto álbum de estudio del dúo francés Daft Punk. Esta edición especial del 10° aniversario en doble vinilo de 180 gramos incluye todas las colaboraciones con artistas como Pharrell Williams, Nile Rodgers y Giorgio Moroder. Con 'Get Lucky' como hit mundial, este álbum fusiona perfectamente lo retro con lo futurista.",
-    portadaUrl:
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=600&fit=crop",
+    portadaUrl: musica04,
     imagenesAdicionales: [
       "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=600&fit=crop",
       "https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=600&h=600&fit=crop",
@@ -490,11 +493,10 @@ export const DataVinilo: VinylData[] = [
       "El icónico álbum de Queen con 'Bohemian Rhapsody', una obra maestra del rock.",
     descripcionLarga:
       "A Night at the Opera es el cuarto álbum de estudio de la banda británica Queen, a menudo citado como uno de los mejores álbumes de rock de todos los tiempos. Esta edición en vinilo de 180 gramos ofrece una calidad de sonido excepcional para disfrutar de clásicos como 'Bohemian Rhapsody', 'Love of My Life' y 'You're My Best Friend'. Es una pieza fundamental en cualquier colección de vinilos.",
-    portadaUrl:
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=600&fit=crop", // Placeholder
+    portadaUrl: musica03, 
     imagenesAdicionales: [
-      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=600&fit=crop", // Placeholder
-      "https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=600&h=600&fit=crop", // Placeholder
+      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=600&fit=crop", 
+      "https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=600&h=600&fit=crop", 
     ],
     tags: ["rock", "clasico", "queen", "bohemian-rhapsody", "oferta"],
     resennas: [

@@ -5,8 +5,12 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
+  const styleColorFooter: React.CSSProperties = {
+    backgroundColor: "#819067",
+  };
+
   return (
-    <footer className="bg-dark text-white mt-5 p-4">
+    <footer className="text-white mt-5 p-4" style={styleColorFooter}>
       <Container>
         <Row className="text-center">
           <Col md={4} className="mb-3 mb-md-0 text-white">

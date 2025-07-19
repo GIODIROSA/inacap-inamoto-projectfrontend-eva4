@@ -9,11 +9,17 @@ import { VinylProvider } from "./Vinyl/context/VinylProvider";
 import Footer from "./Vinyl/componets/ui/Footer";
 
 function App() {
+
+   const styleColor: React.CSSProperties = {
+    backgroundColor: "#FAF7F3",
+    padding: "20px 0px",
+  }; 
+
   return (
     <Router>
       <Header />
       <VinylProvider>
-        <main>
+        <main style={styleColor}>
           <Routes>
             <Route path="/" element={<LayoutInicio />} />
             <Route path="/catalogo" element={<LayoutCatalogo />} />
