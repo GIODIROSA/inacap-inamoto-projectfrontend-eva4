@@ -202,7 +202,7 @@ const FormContact: React.FC = () => {
               type="text"
               name="capital"
               value={formData.capital}
-              readOnly // Capital is automatically set
+              readOnly 
               placeholder="Capital del país"
             />
           </Form.Group>

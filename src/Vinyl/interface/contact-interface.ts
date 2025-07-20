@@ -6,7 +6,7 @@ export interface Country {
 }
 
 export interface FormData {
-  id: string; // Unique ID for each entry
+  id: string; 
   name: string;
   lastName: string;
   address: string;

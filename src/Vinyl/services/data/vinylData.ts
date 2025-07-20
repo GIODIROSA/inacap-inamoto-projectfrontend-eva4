@@ -644,10 +644,10 @@ export const DataVinilo: VinylData[] = [
     descripcionLarga:
       "Led Zeppelin IV es el cuarto álbum de estudio de la banda británica Led Zeppelin, sin título oficial, conocido por su misticismo y por contener la icónica 'Stairway to Heaven'. Esta reedición en vinilo de 180 gramos ofrece la máxima fidelidad sonora para un álbum que mezcla el hard rock con elementos de folk y blues. Indispensable para cualquier coleccionista y amante del rock clásico.",
     portadaUrl:
-      "https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=600&h=600&fit=crop", // Placeholder
+      "https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=600&h=600&fit=crop", 
     imagenesAdicionales: [
-      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=600&fit=crop", // Placeholder
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=600&fit=crop", // Placeholder
+      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=600&fit=crop", 
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=600&fit=crop", 
     ],
     tags: [
       "hard-rock",
@@ -720,10 +720,10 @@ export const DataVinilo: VinylData[] = [
     descripcionLarga:
       "Lady Soul es el duodécimo álbum de estudio de Aretha Franklin, un pilar del soul y R&B que muestra la inigualable voz y pasión de la 'Reina del Soul'. Esta edición en vinilo de 180 gramos revive la energía de canciones como 'Chain of Fools', '(You Make Me Feel Like) A Natural Woman' y 'Ain't No Way'. Un clásico atemporal que sigue resonando con fuerza.",
     portadaUrl:
-      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=600&fit=crop", // Placeholder
+      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=600&fit=crop", 
     imagenesAdicionales: [
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=600&fit=crop", // Placeholder
-      "https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=600&h=600&fit=crop", // Placeholder
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=600&fit=crop", 
+      "https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=600&h=600&fit=crop", 
     ],
     tags: ["soul", "r&b", "clasico", "aretha-franklin", "femenino"],
     resennas: [

@@ -67,7 +67,6 @@ const LayoutServicio: React.FC = () => {
               title={service.title}
               description={service.description}
               icon={service.icon}
-              // buttonLink={service.buttonLink}
             />
           </Col>
         ))}

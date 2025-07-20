@@ -6,7 +6,7 @@ import VinylCarousel from "../ui/VinylCarousel";
 
 const LayoutCatalogo: React.FC = () => {
   const { allVinyl } = useContext(VinylContext);
-  console.log("All Vinyl in LayoutCatalogo:", allVinyl);
+  //console.log("All Vinyl in LayoutCatalogo:", allVinyl);
 
   return (
     <>
@@ -14,7 +14,7 @@ const LayoutCatalogo: React.FC = () => {
         <VinylCarousel />
         <Row>
           <Col className="text-center mb-4">
-            <h1>Nuestro Catálogo de Vinilos</h1>
+            <h1>¡Nuestro Catálogo de Vinilos!</h1>
             <p>Explora nuestra exclusiva colección de discos.</p>
           </Col>
         </Row>
